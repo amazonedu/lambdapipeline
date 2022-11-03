@@ -10,7 +10,7 @@ def lambda_handler(event, context):
     print("Received event: " + json.dumps(event, indent=2))
     response = {}
     response['Timestamp'] = datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%S")
-    response['Message'] = "Request Processing Successful - Pipeline Testing"
+    response['Message'] = "Request Processing Successful - Pipeline Testing - Tiru"
     
     return {
         'statusCode': 200,
